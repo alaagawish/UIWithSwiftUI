@@ -8,17 +8,34 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
-
+    @State var selectedDate = Date()
+       var dateClosedRange: ClosedRange<Date> {
+           let min = Calendar.current.date(byAdding: .day, value: -1, to: Date())!
+           let max = Calendar.current.date(byAdding: .day, value: 1, to: Date())!
+           return min...max
+       }
+       
+       var body: some View {
+           
+      
+           NavigationView {
+               Form {
+                   Section {
+                       DatePicker(
+                           selection: $selectedDate,
+                           in: dateClosedRange,
+                           displayedComponents: .date,
+                           label: { Text("Due Date") }
+                       )
+                   }
+               }
+             
+           }
+        
+              
+           
+       }
+   }
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()

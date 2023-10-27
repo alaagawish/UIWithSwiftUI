@@ -11,6 +11,7 @@
 		61BB941E2AEC23A300A5B0C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BB941D2AEC23A300A5B0C5 /* ContentView.swift */; };
 		61BB94202AEC23A500A5B0C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61BB941F2AEC23A500A5B0C5 /* Assets.xcassets */; };
 		61BB94232AEC23A500A5B0C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61BB94222AEC23A500A5B0C5 /* Preview Assets.xcassets */; };
+		61BB942A2AEC25C200A5B0C5 /* ReservationCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BB94292AEC25C200A5B0C5 /* ReservationCalendar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		61BB941D2AEC23A300A5B0C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		61BB941F2AEC23A500A5B0C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61BB94222AEC23A500A5B0C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		61BB94292AEC25C200A5B0C5 /* ReservationCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationCalendar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		61BB941A2AEC23A300A5B0C5 /* UIWithSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				61BB942B2AEC287C00A5B0C5 /* Week2 */,
 				61BB941B2AEC23A300A5B0C5 /* UIWithSwiftUIApp.swift */,
 				61BB941D2AEC23A300A5B0C5 /* ContentView.swift */,
 				61BB941F2AEC23A500A5B0C5 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				61BB94222AEC23A500A5B0C5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		61BB942B2AEC287C00A5B0C5 /* Week2 */ = {
+			isa = PBXGroup;
+			children = (
+				61BB94292AEC25C200A5B0C5 /* ReservationCalendar.swift */,
+			);
+			path = Week2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61BB941E2AEC23A300A5B0C5 /* ContentView.swift in Sources */,
+				61BB942A2AEC25C200A5B0C5 /* ReservationCalendar.swift in Sources */,
 				61BB941C2AEC23A300A5B0C5 /* UIWithSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
