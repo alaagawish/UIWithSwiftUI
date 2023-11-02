@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		615013802AF3472D00CB731A /* NavigationAnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6150137F2AF3472D00CB731A /* NavigationAnApp.swift */; };
 		615013822AF3482F00CB731A /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615013812AF3482F00CB731A /* MyTabView.swift */; };
+		615013852AF3655600CB731A /* DisplayingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615013842AF3655600CB731A /* DisplayingList.swift */; };
+		615013872AF3712E00CB731A /* Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615013862AF3712E00CB731A /* Gestures.swift */; };
 		618C05F72AF078350055A066 /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618C05F62AF078350055A066 /* ParentView.swift */; };
 		61BB941C2AEC23A300A5B0C5 /* UIWithSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BB941B2AEC23A300A5B0C5 /* UIWithSwiftUIApp.swift */; };
 		61BB941E2AEC23A300A5B0C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BB941D2AEC23A300A5B0C5 /* ContentView.swift */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		6150137F2AF3472D00CB731A /* NavigationAnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationAnApp.swift; sourceTree = "<group>"; };
 		615013812AF3482F00CB731A /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
+		615013842AF3655600CB731A /* DisplayingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayingList.swift; sourceTree = "<group>"; };
+		615013862AF3712E00CB731A /* Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gestures.swift; sourceTree = "<group>"; };
 		618C05F62AF078350055A066 /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
 		61BB94182AEC23A300A5B0C5 /* UIWithSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIWithSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61BB941B2AEC23A300A5B0C5 /* UIWithSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWithSwiftUIApp.swift; sourceTree = "<group>"; };
@@ -40,6 +44,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		615013832AF3653F00CB731A /* Week3 */ = {
+			isa = PBXGroup;
+			children = (
+				6150137F2AF3472D00CB731A /* NavigationAnApp.swift */,
+				615013812AF3482F00CB731A /* MyTabView.swift */,
+				615013842AF3655600CB731A /* DisplayingList.swift */,
+				615013862AF3712E00CB731A /* Gestures.swift */,
+			);
+			path = Week3;
+			sourceTree = "<group>";
+		};
 		61BB940F2AEC23A300A5B0C5 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +74,7 @@
 		61BB941A2AEC23A300A5B0C5 /* UIWithSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				615013832AF3653F00CB731A /* Week3 */,
 				61BB942B2AEC287C00A5B0C5 /* Week2 */,
 				61BB941B2AEC23A300A5B0C5 /* UIWithSwiftUIApp.swift */,
 				61BB941D2AEC23A300A5B0C5 /* ContentView.swift */,
@@ -81,8 +97,6 @@
 			children = (
 				61BB94292AEC25C200A5B0C5 /* ReservationCalendar.swift */,
 				618C05F62AF078350055A066 /* ParentView.swift */,
-				6150137F2AF3472D00CB731A /* NavigationAnApp.swift */,
-				615013812AF3482F00CB731A /* MyTabView.swift */,
 			);
 			path = Week2;
 			sourceTree = "<group>";
@@ -160,7 +174,9 @@
 				618C05F72AF078350055A066 /* ParentView.swift in Sources */,
 				61BB941E2AEC23A300A5B0C5 /* ContentView.swift in Sources */,
 				615013802AF3472D00CB731A /* NavigationAnApp.swift in Sources */,
+				615013872AF3712E00CB731A /* Gestures.swift in Sources */,
 				61BB942A2AEC25C200A5B0C5 /* ReservationCalendar.swift in Sources */,
+				615013852AF3655600CB731A /* DisplayingList.swift in Sources */,
 				615013822AF3482F00CB731A /* MyTabView.swift in Sources */,
 				61BB941C2AEC23A300A5B0C5 /* UIWithSwiftUIApp.swift in Sources */,
 			);
