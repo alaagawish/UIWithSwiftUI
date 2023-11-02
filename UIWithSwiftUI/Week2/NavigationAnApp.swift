@@ -12,7 +12,7 @@ struct NavigationAnApp: View {
         NavigationView {
             VStack {
                 Text("Excersize 1")
-                NavigationLink(destination: Text("This is the trash view")) {
+                NavigationLink(destination: MyTabView()) {
                     Text("Do sth")
                     
                 }.navigationTitle("Little Lemon")
